@@ -10,6 +10,7 @@
 #import <Masonry/Masonry.h>
 #import <TKMResourceManager/TKMResourceManager.h>
 #import <TKMInfoManager/TKMInfoManager.h>
+#import <TKMRechargeModule/TKMRechargeModule.h>
 
 @interface TKMAccountLoginView ()
 
@@ -46,8 +47,8 @@
     [self addSubview:self.loginButton];
     
     [self.logoImageView mas_makeConstraints:^(MASConstraintMaker *make) {
-        make.left.equalTo(self.mas_left).offset(100);
-        make.top.equalTo(self.mas_top).offset(20);
+        make.left.equalTo(self.mas_left).offset(20);
+        make.top.equalTo(self.mas_top).offset(100);
         make.width.height.mas_equalTo(40);
     }];
     [self.userIdTextField mas_makeConstraints:^(MASConstraintMaker *make) {
@@ -81,6 +82,7 @@
             NSLog(@"Login Successd");
             
             [self removeFromSuperview];
+            [[TKModule shared] showRechargeView];
         }
     }];
 }

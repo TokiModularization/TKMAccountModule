@@ -22,6 +22,7 @@ PODS:
   - TKModule/Core (0.1.2):
     - TKModule/SourceMode
   - TKModule/SourceMode (0.1.2)
+  - TKMRechargeModule (0.1.0)
   - TKMRequest (0.1.1):
     - TKMRequest/Core (= 0.1.1)
   - TKMRequest/Core (0.1.1):
@@ -35,6 +36,7 @@ PODS:
 
 DEPENDENCIES:
   - TKMAccountModule (from `../`)
+  - TKMRechargeModule (from `./`)
 
 SPEC REPOS:
   https://github.com/TokiPods/specs.git:
@@ -48,15 +50,18 @@ SPEC REPOS:
 EXTERNAL SOURCES:
   TKMAccountModule:
     :path: "../"
+  TKMRechargeModule:
+    :path: "./"
 
 SPEC CHECKSUMS:
   Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
-  TKMAccountModule: d6ecf7a925c9394e3d8e52d1306ad9f56c6a95b2
+  TKMAccountModule: 167ca5edc7dde46480e0f9f87ab600aaaf72c833
   TKMInfoManager: 4d931f88ff4d139ab554ae381d1cc9e320185635
   TKModule: ebabe7fe5ba86ff3647d620d79b5285afd810bc1
+  TKMRechargeModule: 6eef8e9c467ef614038a97f0542344f8b37e91ee
   TKMRequest: 3a4f1e31de13cbbe79af9fc26a403794c74a4d37
   TKMResourceManager: 04897146ebd311971f484439d1af06f8f2771d35
 
-PODFILE CHECKSUM: cd727b44c32c80af65f5539111c5ac6e673a4676
+PODFILE CHECKSUM: 98056443d900af192aa55a2937f759d485e2a6fa
 
 COCOAPODS: 1.10.1
