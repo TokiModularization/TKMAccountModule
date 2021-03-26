@@ -17,12 +17,21 @@ PODS:
     - TKMInfoManager/SourceMode
     - TKMRequest
   - TKMInfoManager/SourceMode (0.1.2)
+  - TKMInitializeModule (0.1.5):
+    - TKMInitializeModule/Core (= 0.1.5)
+  - TKMInitializeModule/Core (0.1.5):
+    - TKMInfoManager
+    - TKMInitializeModule/Interface
+    - TKMInitializeModule/SourceMode
+    - TKModule
+    - TKMResourceManager
+  - TKMInitializeModule/Interface (0.1.5)
+  - TKMInitializeModule/SourceMode (0.1.5)
   - TKModule (0.1.2):
     - TKModule/Core (= 0.1.2)
   - TKModule/Core (0.1.2):
     - TKModule/SourceMode
   - TKModule/SourceMode (0.1.2)
-  - TKMRechargeModule (0.1.0)
   - TKMRequest (0.1.1):
     - TKMRequest/Core (= 0.1.1)
   - TKMRequest/Core (0.1.1):
@@ -36,11 +45,12 @@ PODS:
 
 DEPENDENCIES:
   - TKMAccountModule (from `../`)
-  - TKMRechargeModule (from `./`)
+  - TKMInitializeModule
 
 SPEC REPOS:
   https://github.com/TokiPods/specs.git:
     - TKMInfoManager
+    - TKMInitializeModule
     - TKModule
     - TKMRequest
     - TKMResourceManager
@@ -50,18 +60,16 @@ SPEC REPOS:
 EXTERNAL SOURCES:
   TKMAccountModule:
     :path: "../"
-  TKMRechargeModule:
-    :path: "./"
 
 SPEC CHECKSUMS:
   Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
   TKMAccountModule: 0bf969df40fed504da08324f4292c6477c6664af
   TKMInfoManager: a50da3fb65c06585bcc9d5dbaf23cbd5fa18a841
+  TKMInitializeModule: e31cf30e88f99e4b32babf26037e35a14c624763
   TKModule: ebabe7fe5ba86ff3647d620d79b5285afd810bc1
-  TKMRechargeModule: 6eef8e9c467ef614038a97f0542344f8b37e91ee
   TKMRequest: 3a4f1e31de13cbbe79af9fc26a403794c74a4d37
   TKMResourceManager: 04897146ebd311971f484439d1af06f8f2771d35
 
-PODFILE CHECKSUM: 98056443d900af192aa55a2937f759d485e2a6fa
+PODFILE CHECKSUM: c676bfe8cc6cb75c0774e9435b7f7fff069c954a
 
 COCOAPODS: 1.10.1

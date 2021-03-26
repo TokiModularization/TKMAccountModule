@@ -1,16 +1,16 @@
 //
-//  TKModule+Recharge.m
+//  TKModule+AccountRecharge.m
 //  TKMRechargeModule
 //
 //  Created by Thief Toki on 2021/3/26.
 //
 
-#import "TKModule+Recharge.h"
+#import <TKMAccountModule/TKModule+AccountRecharge.h>
 
 #import <TKMInfoManager/TKMInfoManager.h>
 #import <TKMAccountModule/TKMAccountModule.h>
 
-@implementation TKModule (Recharge)
+@implementation TKModule (AccountRecharge)
 
 - (void)showRechargeView {
     [TKMAccountInfoManager shared].money = 10;

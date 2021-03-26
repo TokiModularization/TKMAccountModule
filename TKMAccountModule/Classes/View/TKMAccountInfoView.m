@@ -10,7 +10,6 @@
 #import <Masonry/Masonry.h>
 #import <TKMResourceManager/TKMResourceManager.h>
 #import <TKMInfoManager/TKMInfoManager.h>
-#import <TKMRechargeModule/TKMRechargeModule.h>
 
 @interface TKMAccountInfoView ()
 

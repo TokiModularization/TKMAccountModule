@@ -9,6 +9,7 @@
 #import "TKViewController.h"
 
 #import <TKMRequest/TKMRequest.h>
+#import <TKMInitializeModule/TKMInitializeModule.h>
 #import <TKMAccountModule/TKMAccountModule.h>
 
 @interface TKViewController ()
@@ -26,18 +27,7 @@
 - (void)viewDidAppear:(BOOL)animated {
     [super viewDidAppear:animated];
     
-    [[TKMEnvironmentInfoManager shared] registerWithEnvironmentType:0];
-    
-    [[TKMRequest shared] registerBaseURL:[TKMEnvironmentInfoManager shared].baseURL
-                          baseHeaderHook:^NSDictionary * _Nonnull{
-        return @{
-            @"osversion": [TKMDeviceInfoManager shared].OSVersion?:@""
-        };
-    } baseParamHook:^NSDictionary * _Nonnull{
-        return @{
-            @"token": [TKMAccountInfoManager shared].token?:@""
-        };
-    }];
+    [[TKModule shared] initializeWithEnvironment:0];
     
     [[TKModule shared] showLoginView];
 }
