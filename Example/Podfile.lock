@@ -1,22 +1,22 @@
 PODS:
   - Masonry (1.1.0)
-  - TKMAccountModule (0.1.0):
-    - TKMAccountModule/Core (= 0.1.0)
-  - TKMAccountModule/Core (0.1.0):
+  - TKMAccountModule (0.1.1):
+    - TKMAccountModule/Core (= 0.1.1)
+  - TKMAccountModule/Core (0.1.1):
     - Masonry
     - TKMAccountModule/Interface
     - TKMAccountModule/SourceMode
     - TKMInfoManager
     - TKModule
     - TKMResourceManager
-  - TKMAccountModule/Interface (0.1.0)
-  - TKMAccountModule/SourceMode (0.1.0)
-  - TKMInfoManager (0.1.1):
-    - TKMInfoManager/Core (= 0.1.1)
-  - TKMInfoManager/Core (0.1.1):
+  - TKMAccountModule/Interface (0.1.1)
+  - TKMAccountModule/SourceMode (0.1.1)
+  - TKMInfoManager (0.1.2):
+    - TKMInfoManager/Core (= 0.1.2)
+  - TKMInfoManager/Core (0.1.2):
     - TKMInfoManager/SourceMode
     - TKMRequest
-  - TKMInfoManager/SourceMode (0.1.1)
+  - TKMInfoManager/SourceMode (0.1.2)
   - TKModule (0.1.2):
     - TKModule/Core (= 0.1.2)
   - TKModule/Core (0.1.2):
@@ -55,8 +55,8 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
-  TKMAccountModule: 167ca5edc7dde46480e0f9f87ab600aaaf72c833
-  TKMInfoManager: 4d931f88ff4d139ab554ae381d1cc9e320185635
+  TKMAccountModule: 0bf969df40fed504da08324f4292c6477c6664af
+  TKMInfoManager: a50da3fb65c06585bcc9d5dbaf23cbd5fa18a841
   TKModule: ebabe7fe5ba86ff3647d620d79b5285afd810bc1
   TKMRechargeModule: 6eef8e9c467ef614038a97f0542344f8b37e91ee
   TKMRequest: 3a4f1e31de13cbbe79af9fc26a403794c74a4d37

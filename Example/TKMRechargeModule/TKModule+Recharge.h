@@ -1,9 +1,8 @@
 //
 //  TKModule+Recharge.h
-//  TKMAccountModule_Example
+//  TKMRechargeModule
 //
 //  Created by Thief Toki on 2021/3/26.
-//  Copyright © 2021 zhengxianda0512@gmail.com. All rights reserved.
 //
 
 #import "TKModule.h"
