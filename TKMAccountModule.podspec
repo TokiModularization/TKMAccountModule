@@ -74,6 +74,7 @@ Pod::Spec.new do |s|
 
     # core.public_header_files = 'Pod/Classes/**/*.h'
     # core.frameworks = 'UIKit', 'MapKit'
+    core.dependency 'Masonry'
     core.dependency 'TKModule'
     core.dependency 'TKMResourceManager'
     core.dependency 'TKMInfoManager'

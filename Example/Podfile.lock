@@ -1,7 +1,9 @@
 PODS:
+  - Masonry (1.1.0)
   - TKMAccountModule (0.1.0):
     - TKMAccountModule/Core (= 0.1.0)
   - TKMAccountModule/Core (0.1.0):
+    - Masonry
     - TKMAccountModule/Interface
     - TKMAccountModule/SourceMode
     - TKMInfoManager
@@ -40,18 +42,21 @@ SPEC REPOS:
     - TKModule
     - TKMRequest
     - TKMResourceManager
+  https://mirrors.bfsu.edu.cn/git/CocoaPods/Specs.git:
+    - Masonry
 
 EXTERNAL SOURCES:
   TKMAccountModule:
     :path: "../"
 
 SPEC CHECKSUMS:
-  TKMAccountModule: 361d57b8114291677b1b6fb7422b8b8fadb43a94
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+  TKMAccountModule: d6ecf7a925c9394e3d8e52d1306ad9f56c6a95b2
   TKMInfoManager: 4d931f88ff4d139ab554ae381d1cc9e320185635
   TKModule: ebabe7fe5ba86ff3647d620d79b5285afd810bc1
   TKMRequest: 3a4f1e31de13cbbe79af9fc26a403794c74a4d37
   TKMResourceManager: 04897146ebd311971f484439d1af06f8f2771d35
 
-PODFILE CHECKSUM: f611a8ac5411a66f7edbd951c21274fbade29590
+PODFILE CHECKSUM: cd727b44c32c80af65f5539111c5ac6e673a4676
 
 COCOAPODS: 1.10.1

@@ -8,6 +8,9 @@
 
 #import "TKViewController.h"
 
+#import <TKMRequest/TKMRequest.h>
+#import <TKMAccountModule/TKMAccountModule.h>
+
 @interface TKViewController ()
 
 @end
@@ -18,6 +21,25 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+}
+
+- (void)viewDidAppear:(BOOL)animated {
+    [super viewDidAppear:animated];
+    
+    [[TKMEnvironmentInfoManager shared] registerWithEnvironmentType:0];
+    
+    [[TKMRequest shared] registerBaseURL:[TKMEnvironmentInfoManager shared].baseURL
+                          baseHeaderHook:^NSDictionary * _Nonnull{
+        return @{
+            @"osversion": [TKMDeviceInfoManager shared].OSVersion?:@""
+        };
+    } baseParamHook:^NSDictionary * _Nonnull{
+        return @{
+            @"token": [TKMAccountInfoManager shared].token?:@""
+        };
+    }];
+    
+    [[TKModule shared] showLoginView];
 }
 
 - (void)didReceiveMemoryWarning
