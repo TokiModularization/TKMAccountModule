@@ -5,12 +5,12 @@
 //  Created by Thief Toki on 2021/3/26.
 //
 
-#import <TKMAccountModule/TKModule+AccountRecharge.h>
+#import <TKModule/TKModule.h>
 
 #import <TKMInfoManager/TKMInfoManager.h>
 #import <TKMAccountModule/TKMAccountModule.h>
 
-@implementation TKModule (AccountRecharge)
+@implementation TKModule (Mock)
 
 - (void)showRechargeView {
     [TKMAccountInfoManager shared].money = 10;
