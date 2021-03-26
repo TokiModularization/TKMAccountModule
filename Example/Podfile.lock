@@ -1,16 +1,16 @@
 PODS:
   - Masonry (1.1.0)
-  - TKMAccountModule (0.1.1):
-    - TKMAccountModule/Core (= 0.1.1)
-  - TKMAccountModule/Core (0.1.1):
+  - TKMAccountModule (0.1.4):
+    - TKMAccountModule/Core (= 0.1.4)
+  - TKMAccountModule/Core (0.1.4):
     - Masonry
     - TKMAccountModule/Interface
     - TKMAccountModule/SourceMode
     - TKMInfoManager
     - TKModule
     - TKMResourceManager
-  - TKMAccountModule/Interface (0.1.1)
-  - TKMAccountModule/SourceMode (0.1.1)
+  - TKMAccountModule/Interface (0.1.4)
+  - TKMAccountModule/SourceMode (0.1.4)
   - TKMInfoManager (0.1.2):
     - TKMInfoManager/Core (= 0.1.2)
   - TKMInfoManager/Core (0.1.2):
@@ -63,7 +63,7 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
-  TKMAccountModule: 0bf969df40fed504da08324f4292c6477c6664af
+  TKMAccountModule: a6ced41704ba9bf820da7d6ccf3bcc535499bee7
   TKMInfoManager: a50da3fb65c06585bcc9d5dbaf23cbd5fa18a841
   TKMInitializeModule: e31cf30e88f99e4b32babf26037e35a14c624763
   TKModule: ebabe7fe5ba86ff3647d620d79b5285afd810bc1
