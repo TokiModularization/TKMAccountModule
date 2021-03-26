@@ -1,0 +1,57 @@
+PODS:
+  - TKMAccountModule (0.1.0):
+    - TKMAccountModule/Core (= 0.1.0)
+  - TKMAccountModule/Core (0.1.0):
+    - TKMAccountModule/Interface
+    - TKMAccountModule/SourceMode
+    - TKMInfoManager
+    - TKModule
+    - TKMResourceManager
+  - TKMAccountModule/Interface (0.1.0)
+  - TKMAccountModule/SourceMode (0.1.0)
+  - TKMInfoManager (0.1.1):
+    - TKMInfoManager/Core (= 0.1.1)
+  - TKMInfoManager/Core (0.1.1):
+    - TKMInfoManager/SourceMode
+    - TKMRequest
+  - TKMInfoManager/SourceMode (0.1.1)
+  - TKModule (0.1.2):
+    - TKModule/Core (= 0.1.2)
+  - TKModule/Core (0.1.2):
+    - TKModule/SourceMode
+  - TKModule/SourceMode (0.1.2)
+  - TKMRequest (0.1.1):
+    - TKMRequest/Core (= 0.1.1)
+  - TKMRequest/Core (0.1.1):
+    - TKMRequest/SourceMode
+  - TKMRequest/SourceMode (0.1.1)
+  - TKMResourceManager (0.1.1):
+    - TKMResourceManager/Core (= 0.1.1)
+  - TKMResourceManager/Core (0.1.1):
+    - TKMResourceManager/SourceMode
+  - TKMResourceManager/SourceMode (0.1.1)
+
+DEPENDENCIES:
+  - TKMAccountModule (from `../`)
+
+SPEC REPOS:
+  https://github.com/TokiPods/specs.git:
+    - TKMInfoManager
+    - TKModule
+    - TKMRequest
+    - TKMResourceManager
+
+EXTERNAL SOURCES:
+  TKMAccountModule:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  TKMAccountModule: 361d57b8114291677b1b6fb7422b8b8fadb43a94
+  TKMInfoManager: 4d931f88ff4d139ab554ae381d1cc9e320185635
+  TKModule: ebabe7fe5ba86ff3647d620d79b5285afd810bc1
+  TKMRequest: 3a4f1e31de13cbbe79af9fc26a403794c74a4d37
+  TKMResourceManager: 04897146ebd311971f484439d1af06f8f2771d35
+
+PODFILE CHECKSUM: f611a8ac5411a66f7edbd951c21274fbade29590
+
+COCOAPODS: 1.10.1
