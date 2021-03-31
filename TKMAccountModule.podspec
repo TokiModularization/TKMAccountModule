@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'TKMAccountModule'
-  s.version          = '0.1.7'
+  s.version          = '0.1.8'
   s.summary          = 'TKM 账号组件'
 
 # This description is used to generate tags and improve search results.
