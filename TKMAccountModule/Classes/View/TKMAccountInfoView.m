@@ -41,6 +41,8 @@
 #pragma mark - setup UI
 
 - (void)setupUI {
+    self.backgroundColor = UIColor.whiteColor;
+    
     [self addSubview:self.tokenLabel];
     [self addSubview:self.moneyLabel];
     
